@@ -1,2 +1,3 @@
-# Universal-Editor
-Universal-Editor Inspired from editor.js
+# Navi-Editor
+
+Navi-Editor Inspired from editor.js

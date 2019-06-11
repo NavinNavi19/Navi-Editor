@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "codex_editor";
+  src: url("fonts/codex_editor/codex_editor.eot?52438661");
+  src: url("fonts/codex_editor/codex_editor.eot?52438661#iefix")
+      format("embedded-opentype"),
+    url("fonts/codex_editor/codex_editor.woff?52438661") format("woff"),
+    url("fonts/codex_editor/codex_editor.ttf?52438661") format("truetype"),
+    url("fonts/codex_editor/codex_editor.svg?52438661#codex_editor")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ne_icon-instagram:before {
+  content: "\e800";
+}
+.ne_icon-minus:before {
+  content: "\e801";
+}
+.ne_icon-picture:before {
+  content: "\e802";
+}
+.ne_icon-minus-circled:before {
+  content: "\e803";
+}
+.ne_icon-cog:before {
+  content: "\e804";
+}
+.ne_icon-link:before {
+  content: "\e805";
+}
+.ne_icon-unlink:before {
+  content: "\e806";
+}
+.ne_icon-code:before {
+  content: "\e807";
+}
+.ne_icon-quote-right:before {
+  content: "\e808";
+}
+.ne_icon-comment:before {
+  content: "\e809";
+}
+.ne_icon-trash-empty:before {
+  content: "\e80a";
+}
+.ne_icon-down-open:before {
+  content: "\e80b";
+}
+.ne_icon-up-open:before {
+  content: "\e80c";
+}
+.ne_icon-up-big:before {
+  content: "\e80d";
+}
+.ne_icon-down-big:before {
+  content: "\e80e";
+}
+.ne_icon-header:before {
+  content: "\e80f";
+}
+.ne_icon-align-center:before {
+  content: "\e810";
+}
+.ne_icon-align-left:before {
+  content: "\e811";
+}
+.ne_icon-align-right:before {
+  content: "\e812";
+}
+.ne_icon-list:before {
+  content: "\e813";
+}
+.ne_icon-strike:before {
+  content: "\e814";
+}
+.ne_icon-underline:before {
+  content: "\e815";
+}
+.ne_icon-table:before {
+  content: "\e816";
+}
+.ne_icon-columns:before {
+  content: "\e817";
+}
+.ne_icon-bold:before {
+  content: "\e818";
+}
+.ne_icon-italic:before {
+  content: "\e819";
+}
+.ne_icon-smile:before {
+  content: "\e81a";
+}
+.ne_icon-twitter:before {
+  content: "\e81b";
+}
+.ne_icon-plus-1:before {
+  content: "\e81c";
+}
+.ne_icon-plus-circled-1:before {
+  content: "\e81d";
+}
+.ne_icon-quote:before {
+  content: "\e81e";
+}
+.ne_icon-code-1:before {
+  content: "\e81f";
+}
+.ne_icon-trash:before {
+  content: "\e820";
+}
+.ne_icon-list-add:before {
+  content: "\e821";
+}
+.ne_icon-list-1:before {
+  content: "\e822";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+}
+
+[class^="ne_icon-"]:before,
+[class*="ne_icon-"]:before {
+  font-family: "codex_editor";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.2em;
+  margin-left: 0.2em;
+  text-align: center;
+
+  line-height: 1em;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navi-editor {
+  margin: 10px;
+  padding: 10px;
+}
+
+.navi-editor .node {
+  position: relative;
+}
+
+.navi-editor .node .ne-node-content {
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.navi-editor .node .add-buttons {
+  position: absolute;
+  top: -28px;
+  left: -18px;
+
+  transition: all 150ms ease-in;
+  transform: translate3d(-50px, 0, 0);
+  opacity: 0;
+}
+
+.navi-editor .node .add-buttons.toolbar-toggled {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.navi-editor .node .add-buttons .toggler {
+  color: #3770ef;
+}
+.navi-editor .node .add-buttons button {
+  padding: 5px;
+  background: rgba(253, 173, 0, 0.616);
+  color: white;
+  border: none;
+}
+
+.navi-editor .node .add-buttons button:hover {
+  color: #3770ef;
+}
