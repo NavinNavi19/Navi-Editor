@@ -1,3 +1,2 @@
-# Navi-Editor
-
-Navi-Editor Inspired from editor.js
+# codex.editor
+CodeX Editor sources
